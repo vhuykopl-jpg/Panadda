@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>วิชาการใช้ PLATFORM ประยุกต์ - มหาวิทยาลัยราชภัฏนครสวรรค์</title>
+    <!-- Google Fonts - Thaisarabun -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="interactive-element" id="cursor-follower"></div>
+    
+    <header>
+        <nav class="container">
+            <div class="logo">
+                <img src="img/logo.png" alt="NSRU Logo" class="header-logo">
+                วิชาการใช้ PLATFORM ประยุกต์
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html"style="background: rgba(255, 255, 255, 0.2);">หน้าแรก</a></li>
+                <li><a href="about.html">เกี่ยวกับ</a></li>
+                <li><a href="contract.html">จัดทำโดย</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <div class="logo-container">
+                    <img src="img/nsru.png" alt="โลโก้มหาวิทยาลัยราชภัฏนครสวรรค์" class="university-logo">
+                </div>
+                <h1>มหาวิทยาลัยราชภัฏนครสวรรค์</h1>
+                <p>แผนการเรียนรู้ของรายวิชา การใช้ PLATFORM ประยุกต์</p>
+                <a href="study1.html" class="cta-button">เริ่มต้นเรียนรู้</a>
+            </div>
+        </section>
+
+
+<section class="features" id="features">
+    <div class="container">
+        <h2>เนื้อหาการเรียนรู้</h2>
+        <div class="features-grid">
+            <!-- Card 1 - Links to category1.html -->
+            <a href="study1.html" class="feature-card-link">
+                <div class="feature-card" onclick="animateCard(this)">
+                    <div class="feature-icon">📚</div>
+                    <h3>หมวดหมู่ที่ 1</h3>
+                    <p>ข้อมูลโดยทั่วไป ของรายวิชา</p>
+                    <div class="card-arrow">→</div>
+                </div>
+            </a> 
+            <!-- Card 3 - Links to category3.html -->
+            <a href="study2.html" class="feature-card-link">
+                <div class="feature-card" onclick="animateCard(this)">
+                    <div class="feature-icon">🎯</div>
+                    <h3>หมวดหมู่ที่ 2</h3>
+                    <p>รายละเอียดเนื้อหาและการจัดการเรียนการสอน</p>
+                    <div class="card-arrow">→</div>
+                </div>
+            </a>            
+        </div>
+    </div>
+</section>
+    </main>
+
+    <script src="js/script.js"></script>
+    <script src="js/category.js"></script>
+
+</body>
+</html>
